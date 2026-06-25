@@ -5,7 +5,7 @@ def palindrome(s):
         word2 = ""
         s = s.lower()
 
-        abc = "qwertyuiopasdfghjklzxcvbnm"
+        abc = "qwertyuiopasdfghjklzxcvbnm" # this is valid
         for letter in s:
             if letter in abc:
                 word1 += letter
